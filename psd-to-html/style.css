@@ -1,0 +1,198 @@
+
+
+/*** Header Area ***/
+
+
+.header-section {
+	overflow: hidden;
+}
+
+.header-section .logo-section {
+	display: none;
+}
+.header-section .header-image img {
+	width: 100%;
+	height: auto;
+}
+.header-section .main-menu {
+	display: block;
+	position: absolute;
+	left: 0;
+	top: 0;
+	margin-top: 20px;
+	width: 100%;
+}
+.main-menu ul li {
+	margin: 0 21px;
+}
+.main-menu ul li a {
+	text-transform: uppercase;
+	color: #4d4959;
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	font-size: 12px;
+	letter-spacing: 1.5px;
+}
+
+
+
+/*** Description Section ***/
+
+.section {
+	overflow: hidden;
+}
+
+.intro-section {
+	background-color: #F7F7F7;
+	padding: 100px 0;
+}
+.section .icon {
+	width: 50px;
+	height: 42px;
+}
+.section h2 {
+	color: #353738;	
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	font-size: 17px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	line-height: 3em;	
+}
+.section .content {
+	display: block;
+	width: 80%;
+	margin: 0 auto;
+	font-size: 15px;
+	line-height: 1.4em;
+}
+
+.section p {
+	color: #848789;
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+}
+
+.big-small {
+	max-height: 485px;
+	overflow: hidden;
+	position: relative;
+}
+.small-big {
+	max-height: 485px;
+	overflow: hidden;
+}
+.big-small-big {
+	max-height: 485px;
+	overflow: hidden;
+}
+
+
+
+.big img,
+.small-image img {
+	width: 100%;
+	height: auto;
+}
+.section .big, 
+.section .small {
+	padding: 0;
+	padding-right: 0;
+}
+
+
+.small-image {
+	background: url('images/vintage-bike-small.jpg') no-repeat;
+	background-size: 100% auto;
+	min-height: 200px;
+	background-position: bottom left;
+}
+
+
+
+.small-des {
+	padding: 40px 0 20px;
+}
+.small-des hr {
+	border-left: 0;
+	border-right: 0;
+	border-bottom: 0;
+	border-top: 1px solid #CCCCCC;
+	width: 50px;
+}
+
+.small-des .content p:after {
+	content: '';
+	display: block;
+	margin: auto;
+	margin-top: 40px;
+	width: 50px;
+	height: 1px;
+	background: red;
+}
+
+
+
+.small-image {
+	position: relative;
+	
+}
+.small-image:before {
+	content: '';
+	height: 0;
+	width: 0;
+	border-top: 10px solid #FFFFFF;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	position: absolute;
+	top: 31px;
+	left: 50%;
+}
+
+
+
+.section-logo {
+	position: absolute;
+	z-index: 9999;
+	top: 50%;
+	left: 0;
+	margin-top: -59px;
+	width: 100%;
+}
+.section-logo img {
+	display: block;
+	width: 113px;
+	height: 118px;
+	margin: auto;
+}
+
+
+
+/*** Tweet Section ***/
+
+.tweet-section {
+	background: #F7F7F7;
+	padding: 100px 0;
+}
+
+.tweet-section .tweet-icon {
+	color: #56C7EF;
+	font-size: 30px;
+}
+
+.tweet-section h2 {
+	font-family: 'Lato', sans-serif;
+	font-size: 17px;
+	font-weight: 700;
+	letter-spacing: 2px;
+	
+}
+.tweet-section h2 span {
+	font-size: 16px;
+	color: #CCCCCC;
+	margin-left: 10px;
+	letter-spacing: 3px;
+}
+.tweet-section p {
+	font-size: 18px;
+}
