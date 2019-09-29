@@ -1,0 +1,165 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: candara;
+	font-size: 14px;
+}
+
+
+body{
+	background-color: gray;
+}
+.top-bar{
+	background-color: #67B7E1;
+	&:after{
+		content:'';
+		display: block; 
+		clear: both;
+	}
+	.mid{
+		width: 80%;
+		margin: auto;
+		.top-left {
+			width: 50%;
+			float: left;
+			ul{
+				list-style:none;
+				li{
+					display: inline-block;
+					color: #FFF;
+					margin-top: 6px;
+
+				}
+				@media all and (min-width: 0px) and (max-width: 770px){
+				
+				text-align: center;
+
+			}
+			}
+			@media all and (min-width: 0px) and (max-width: 770px){
+				
+				float: none; 
+				width: 100%;
+
+			}
+		}
+		.top-right {
+			width: 50%;
+			float: left;
+			ul{
+				text-align: right;
+				list-style:none;
+				li{
+					display: inline-block;
+					a{
+						text-decoration: none; 
+						display: block; 
+						padding: 10px;
+						color: #FFF;
+					}
+				}
+
+				@media all and (min-width: 0px) and (max-width: 770px){
+				
+				text-align: center;
+
+			}
+			}
+
+			@media all and (min-width: 0px) and (max-width: 770px){
+				
+				float: none; 
+				width: 100%;
+
+			}
+		}
+	}
+}
+
+
+
+.header {
+	background-color: #fff;
+	&:after {
+		content:'';
+		display: block;
+		clear: both;
+
+	}
+	.mid{
+		width: 80%;
+		margin: auto;
+		@media all and (min-width: 0px) and (max-width: 654px){
+				width: 95%;
+			}
+		.logo {
+			width: 25%;
+			float: left;
+
+			@media all and (min-width: 0px) and (max-width: 968px){
+				float: none;
+				width: 100%;
+			}
+
+			img {
+
+			@media all and (min-width: 0px) and (max-width: 968px){
+				margin: auto; 
+				display: block;
+			}
+
+			}
+		}
+		.menu-res{
+			display: none;
+			@media all and (min-width: 0px) and (max-width: 548px){
+				display: block;
+				text-align: right;
+				padding: 10px 20px;
+				a{
+					text-decoration: none;
+					color:  blue;
+					font-size: 14px;
+				}
+			}
+
+		}
+		.menu{
+			width: 75%;
+			float: left;
+			ul{
+				text-align: right;
+				margin-top: 20px;
+				li{
+					display: inline-block;
+					list-style:none;
+					@media all and (min-width: 0px) and (max-width: 548px){
+						
+						text-align: center;
+						display: none;
+					}
+					a{
+						text-decoration: none;
+						color: #67B7E1;
+						display: block;
+						padding: 10px;
+					}
+
+					&:hover a {
+						background-color: #67B7E1;
+						color: #FFF;
+					}
+				}
+
+				@media all and (min-width: 0px) and (max-width: 968px){
+					text-align: center;
+				}
+			}
+
+			@media all and (min-width: 0px) and (max-width: 968px){
+				float: none; 
+				width: 100%;
+			}
+		}
+	}
+}
