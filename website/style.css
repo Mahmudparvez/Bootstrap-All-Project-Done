@@ -1,0 +1,34 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: tahoma;
+}
+
+body {
+	background-color: gray;
+}
+li{
+	list-style: none;
+}
+
+.top-bar {
+	background-color: #67B7E1;
+}
+
+.top-left ul li {
+	padding: 10px;
+	color: #FFF;
+	margin-top: 4px;
+}
+
+.top-right ul li a{
+	color: #FFF;
+}
+
+.header {
+	background-color: #FFF;
+}
+
+.menu ul {
+	margin-top: 20px;
+}
